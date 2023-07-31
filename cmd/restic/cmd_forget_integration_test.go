@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunForget(t testing.TB, gopts GlobalOptions, args ...string) {

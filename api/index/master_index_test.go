@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/checker"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/index"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/checker"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/index"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestMasterIndex(t *testing.T) {

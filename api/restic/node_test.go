@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func BenchmarkNodeFillUser(t *testing.B) {

@@ -8,14 +8,14 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/hashing"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/hashing"
+	"github.com/josh/restic-api/api/restic"
 
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/pack"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/pack"
 
 	"github.com/minio/sha256-simd"
 )

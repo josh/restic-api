@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/test"
 )
 
 func TestLimiterWrapping(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/ui"
 )
 
 type textPrinter struct {

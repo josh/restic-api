@@ -11,12 +11,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/api/cache"
-	"github.com/restic/restic/api/checker"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/cache"
+	"github.com/josh/restic-api/api/checker"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui"
 )
 
 var cmdCheck = &cobra.Command{

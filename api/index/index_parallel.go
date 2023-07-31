@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // ForAllIndexes loads all index files in parallel and calls the given callback.

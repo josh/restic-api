@@ -1,7 +1,7 @@
 package termstatus
 
 import (
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/debug"
 
 	"golang.org/x/sys/unix"
 )

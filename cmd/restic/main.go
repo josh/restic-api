@@ -9,13 +9,13 @@ import (
 	"runtime"
 	godebug "runtime/debug"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/options"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/options"
+	"github.com/josh/restic-api/api/restic"
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // cmdRoot is the base command when no other command has been specified.
