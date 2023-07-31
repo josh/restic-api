@@ -6,7 +6,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/restic/restic/internal/debug"
+	"github.com/restic/restic/api/debug"
 )
 
 var cleanupHandlers struct {
