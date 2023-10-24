@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 // TestFillSecondaryGlobalOpts tests valid and invalid data on fillSecondaryGlobalOpts-function

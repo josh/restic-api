@@ -8,8 +8,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/restic"
 
 	"github.com/anacrolix/fuse"
 	"github.com/anacrolix/fuse/fs"

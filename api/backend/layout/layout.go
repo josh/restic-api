@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // Layout computes paths for file name storage.

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/backend/sftp"
-	"github.com/restic/restic/api/backend/test"
-	"github.com/restic/restic/api/errors"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend/sftp"
+	"github.com/josh/restic-api/api/backend/test"
+	"github.com/josh/restic-api/api/errors"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func findSFTPServerBinary() string {
