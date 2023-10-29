@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 type TestBlob struct {

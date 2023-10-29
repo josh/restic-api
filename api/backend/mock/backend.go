@@ -5,8 +5,8 @@ import (
 	"hash"
 	"io"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // Backend implements a mock backend.

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func Test_PrintFunctionsRespectsGlobalStdout(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // TransportOptions collects various options which can be set for an HTTP based

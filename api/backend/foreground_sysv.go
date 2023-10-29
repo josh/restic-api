@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 func startForeground(cmd *exec.Cmd) (bg func() error, err error) {

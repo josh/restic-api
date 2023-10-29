@@ -3,8 +3,8 @@ package restic_test
 import (
 	"testing"
 
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 )
 
 type testBackend struct {

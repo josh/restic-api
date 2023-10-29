@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 
 	mrand "math/rand"
 )

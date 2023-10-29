@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // TestSnapshot creates a new snapshot of path.

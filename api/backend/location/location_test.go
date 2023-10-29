@@ -3,9 +3,9 @@ package location_test
 import (
 	"testing"
 
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 )
 
 type testConfig struct {
