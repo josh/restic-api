@@ -4,9 +4,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/options"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/options"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // Config contains basic configuration needed to specify swift location for a swift server

@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/restic/restic/api/fs"
-	restictest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/fs"
+	restictest "github.com/josh/restic-api/api/test"
 )
 
 // debug.Log requires Tree.String.

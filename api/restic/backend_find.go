@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/debug"
 )
 
 // A MultipleIDMatchesError is returned by Find() when multiple IDs with a

@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 func WrapBackendConstructor[B restic.Backend, C any](constructor func(ctx context.Context, cfg C) (B, error)) func(ctx context.Context, cfg C, lim Limiter) (restic.Backend, error) {

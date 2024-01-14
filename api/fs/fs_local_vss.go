@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // ErrorHandler is used to report errors via callback

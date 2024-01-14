@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // LoadAll reads all data stored in the backend for the handle into the given
