@@ -9,11 +9,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/api/backend"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/fs"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/walker"
 )
 
 var cmdLs = &cobra.Command{
