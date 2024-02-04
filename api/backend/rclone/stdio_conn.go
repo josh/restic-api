@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/debug"
 )
 
 // StdioConn implements a net.Conn via stdin/stdout.

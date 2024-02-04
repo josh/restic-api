@@ -9,12 +9,12 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/mem"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/pack"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/mem"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/pack"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 var testLens = []int{23, 31650, 25860, 10928, 13769, 19862, 5211, 127, 13690, 30231}

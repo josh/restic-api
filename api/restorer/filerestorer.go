@@ -7,12 +7,12 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui/restore"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui/restore"
 )
 
 // TODO if a blob is corrupt, there may be good blob copies in other packs

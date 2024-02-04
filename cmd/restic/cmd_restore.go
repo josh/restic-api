@@ -6,14 +6,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/filter"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/restorer"
-	"github.com/restic/restic/api/ui"
-	restoreui "github.com/restic/restic/api/ui/restore"
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/filter"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/restorer"
+	"github.com/josh/restic-api/api/ui"
+	restoreui "github.com/josh/restic-api/api/ui/restore"
+	"github.com/josh/restic-api/api/ui/termstatus"
 
 	"github.com/spf13/cobra"
 )

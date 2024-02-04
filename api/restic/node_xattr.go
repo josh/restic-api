@@ -6,7 +6,7 @@ package restic
 import (
 	"syscall"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 
 	"github.com/pkg/xattr"
 )

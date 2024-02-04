@@ -3,9 +3,9 @@ package restic
 import (
 	"context"
 
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/ui/progress"
 	"golang.org/x/sync/errgroup"
 )
 

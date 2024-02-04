@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend/mock"
-	"github.com/restic/restic/api/backend/sema"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend/mock"
+	"github.com/josh/restic-api/api/backend/sema"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 	"golang.org/x/sync/errgroup"
 )
 
