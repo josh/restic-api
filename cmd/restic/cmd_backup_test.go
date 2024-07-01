@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/api/test"
 )
 
 func TestCollectTargets(t *testing.T) {
