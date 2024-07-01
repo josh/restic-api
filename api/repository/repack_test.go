@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/index"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/index"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 	"golang.org/x/sync/errgroup"
 )
 

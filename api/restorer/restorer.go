@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/restic"
-	restoreui "github.com/restic/restic/api/ui/restore"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/restic"
+	restoreui "github.com/josh/restic-api/api/ui/restore"
 
 	"golang.org/x/sync/errgroup"
 )

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/test"
 )
 
 func TestByteReader(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/restic/restic
+module github.com/josh/restic-api
 
 require (
 	cloud.google.com/go/storage v1.41.0

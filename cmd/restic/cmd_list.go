@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/index"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/index"
+	"github.com/josh/restic-api/api/restic"
 
 	"github.com/spf13/cobra"
 )

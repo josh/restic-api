@@ -8,9 +8,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/api/backend/mock"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend/mock"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func randomBytes(t *testing.T, size int) []byte {

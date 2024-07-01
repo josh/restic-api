@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestWriteTar(t *testing.T) {

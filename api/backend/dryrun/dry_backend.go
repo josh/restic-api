@@ -5,8 +5,8 @@ import (
 	"hash"
 	"io"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // Backend passes reads through to an underlying layer and accepts writes, but

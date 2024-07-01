@@ -4,7 +4,7 @@
 package restorer
 
 import (
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // WriteAt writes p to f.File at offset. It tries to do a sparse write

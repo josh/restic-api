@@ -4,7 +4,7 @@ package location
 import (
 	"strings"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // Location specifies the location of a repository, including the method of
