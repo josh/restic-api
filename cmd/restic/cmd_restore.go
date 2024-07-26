@@ -5,13 +5,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/restorer"
-	"github.com/restic/restic/internal/ui"
-	restoreui "github.com/restic/restic/internal/ui/restore"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/api/debug"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/restorer"
+	"github.com/restic/restic/api/ui"
+	restoreui "github.com/restic/restic/api/ui/restore"
+	"github.com/restic/restic/api/ui/termstatus"
 
 	"github.com/spf13/cobra"
 )
