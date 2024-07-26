@@ -3,7 +3,7 @@ package ui
 import (
 	"fmt"
 
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/ui/termstatus"
 )
 
 // Message reports progress with messages of different verbosity.

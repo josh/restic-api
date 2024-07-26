@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui/termstatus"
 )
 
 func testRunBackupAssumeFailure(t testing.TB, dir string, target []string, opts BackupOptions, gopts GlobalOptions) error {

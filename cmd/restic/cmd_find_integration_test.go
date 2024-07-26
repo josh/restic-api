@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunFind(t testing.TB, wantJSON bool, gopts GlobalOptions, pattern string) []byte {

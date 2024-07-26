@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/ui/termstatus"
 )
 
 // setupTermstatus creates a new termstatus and reroutes globalOptions.{stdout,stderr} to it

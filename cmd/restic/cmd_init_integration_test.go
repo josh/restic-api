@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunInit(t testing.TB, opts GlobalOptions) {

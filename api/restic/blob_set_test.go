@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestBlobSetString(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // uidGidInt returns uid, gid of the user as a number.

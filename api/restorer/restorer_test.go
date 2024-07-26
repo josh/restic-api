@@ -16,13 +16,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/archiver"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	restoreui "github.com/restic/restic/api/ui/restore"
+	"github.com/josh/restic-api/api/archiver"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	restoreui "github.com/josh/restic-api/api/ui/restore"
 	"golang.org/x/sync/errgroup"
 )
 

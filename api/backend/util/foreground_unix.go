@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
 
 	"golang.org/x/sys/unix"
 )

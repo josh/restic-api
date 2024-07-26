@@ -1,7 +1,7 @@
 package layout
 
 import (
-	"github.com/restic/restic/api/backend"
+	"github.com/josh/restic-api/api/backend"
 )
 
 // RESTLayout implements the default layout for the REST protocol.
