@@ -8,12 +8,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository/index"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/api/backend"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/repository/index"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui/termstatus"
 )
 
 func testRunRebuildIndex(t testing.TB, gopts GlobalOptions) {
