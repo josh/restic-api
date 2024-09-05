@@ -14,12 +14,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 
 	"bytes"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/fs"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/fs"
 )
 
 // ExtendedAttribute is a tuple storing the xattr name and value for various filesystems.

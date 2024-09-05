@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/test"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func BenchmarkNodeFillUser(t *testing.B) {

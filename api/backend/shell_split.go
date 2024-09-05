@@ -3,7 +3,7 @@ package backend
 import (
 	"unicode"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // shellSplitter splits a command string into separated arguments. It supports

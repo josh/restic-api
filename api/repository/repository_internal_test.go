@@ -13,11 +13,11 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/google/go-cmp/cmp"
 	"github.com/klauspost/compress/zstd"
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 type mapcache map[backend.Handle]bool

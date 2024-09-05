@@ -5,9 +5,9 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/errors"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/errors"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 // restic should detect rclone exiting.

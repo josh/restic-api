@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/sftp"
-	"github.com/restic/restic/api/feature"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/sftp"
+	"github.com/josh/restic-api/api/feature"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestLayout(t *testing.T) {

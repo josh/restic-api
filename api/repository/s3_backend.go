@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/s3"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/s3"
 )
 
 // AsS3Backend extracts the S3 backend from a repository
