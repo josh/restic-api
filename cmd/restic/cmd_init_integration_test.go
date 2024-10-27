@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
 )
 
 func testRunInit(t testing.TB, opts GlobalOptions) {
