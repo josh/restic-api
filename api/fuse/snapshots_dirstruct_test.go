@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 )
 
 func TestPathsFromSn(t *testing.T) {

@@ -5,11 +5,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/restic/restic/api/checker"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/checker"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui/progress"
 	"golang.org/x/sync/errgroup"
 )
 

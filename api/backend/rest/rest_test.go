@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend/rest"
-	"github.com/restic/restic/api/backend/test"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend/rest"
+	"github.com/josh/restic-api/api/backend/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 var (

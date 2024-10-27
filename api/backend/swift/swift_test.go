@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/swift"
-	"github.com/restic/restic/api/backend/test"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/swift"
+	"github.com/josh/restic-api/api/backend/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func newSwiftTestSuite(t testing.TB) *test.Suite[swift.Config] {

@@ -4,9 +4,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/restic/restic/api/archiver"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/archiver"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui"
 )
 
 // JSONProgress reports progress for the `backup` command in JSON.
