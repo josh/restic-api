@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // LoadRaw reads all data stored in the backend for the file with id and filetype t.

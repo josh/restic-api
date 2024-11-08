@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/restic/restic/api/fs"
+	"github.com/josh/restic-api/api/fs"
 )
 
 // fsyncDir flushes changes to the directory dir.

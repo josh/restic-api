@@ -11,7 +11,7 @@ import (
 	"time"
 
 	ole "github.com/go-ole/go-ole"
-	"github.com/restic/restic/api/options"
+	"github.com/josh/restic-api/api/options"
 )
 
 func matchStrings(ptrs []string, strs []string) bool {

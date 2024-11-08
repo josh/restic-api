@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/fs"
+	"github.com/josh/restic-api/api/fs"
 )
 
 func TestWriteZip(t *testing.T) {

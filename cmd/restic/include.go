@@ -3,8 +3,8 @@ package main
 import (
 	"strings"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/filter"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/filter"
 	"github.com/spf13/pflag"
 )
 

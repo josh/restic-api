@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui/progress"
 	"golang.org/x/sync/errgroup"
 )
 

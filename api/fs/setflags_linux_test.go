@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 
 	"golang.org/x/sys/unix"
 )
