@@ -8,7 +8,6 @@ on:
         required: false
 
 permissions:
-  actions: write
   contents: write
 
 jobs:
@@ -46,6 +45,12 @@ jobs:
         run: |
           go install github.com/sirkon/go-imports-rename@latest
           echo "$HOME/go/bin" >>"$GITHUB_PATH"
+
+      - name: Remove GitHub Actions workflows
+        run: |
+          rm -rf .github/workflows
+          git add .
+          git commit --message "Remove GitHub Actions workflows"
 
       - name: Patch internal modules
         run: |
