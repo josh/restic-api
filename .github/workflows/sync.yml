@@ -33,11 +33,18 @@ jobs:
           ref: ${{ steps.tag.outputs.tag }}
           fetch-depth: 0
 
-      - name: Patch
+      - name: Install go-imports-rename
+        run: |
+          go install github.com/sirkon/go-imports-rename@latest
+
+      - name: Patch internal modules
         run: |
           mv internal/ api/
-          find . -type f -name "*.go" -exec sed -i "s|github.com/restic/restic/internal|github.com/restic/restic/api|g" {} +
-          find . -type f -name "*.go" -exec sed -i "s|github.com/restic/restic|github.com/${{ github.repository }}|g" {} +
+          go-imports-rename --save 'github.com/restic/restic/internal/ => github.com/restic/restic/api/'
+
+      - name: Patch fork name
+        run: |
+          go-imports-rename --save 'github.com/restic/restic/ => github.com/${{ github.repository }}/'
 
       - name: Build
         run: |
