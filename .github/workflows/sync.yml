@@ -46,6 +46,7 @@ jobs:
       - name: Patch fork name
         run: |
           go-imports-rename --save 'github.com/restic/restic/ => github.com/${{ github.repository }}/'
+          sed -i "s|module github.com/restic/restic|module github.com/${{ github.repository }}|" go.mod
 
       - name: Build
         run: |
