@@ -51,7 +51,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           GIT_AUTHOR_DATE=$(git show --no-patch --format=%aI HEAD)
           GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE
-          export COMMIT_DATE=$GIT_AUTHOR_DATE
+          export GIT_AUTHOR_DATE GIT_COMMITTER_DATE
           git add .
           git commit --message "Expose internal modules as public apis"
           git tag --force ${{ steps.tag.outputs.tag }}
