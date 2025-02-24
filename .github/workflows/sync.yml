@@ -1,0 +1,50 @@
+name: Sync Fork
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Upstream Tag"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: restic/restic
+          ref: ${{ github.event.inputs.tag }}
+          fetch-depth: 0
+
+      - name: Re-configure origin
+        run: |
+          git remote set-url origin https://github.com/josh/restic-api.git
+
+      - name: Patch
+        run: |
+          mv internal/ api/
+          find . -type f -name "*.go" -exec sed -i "$SED_PATTERN" {} +
+        env:
+          SED_PATTERN: "s|github.com/restic/restic/internal|github.com/restic/restic/api|g"
+
+      - name: Build
+        run: |
+          make
+          make clean
+
+      - name: Commit and tag changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --message "Expose internal modules as public apis"
+          git tag --force ${{ github.event.inputs.tag }}
+
+      - name: Push tag
+        run: |
+          git push --force ${{ github.event.inputs.tag }}
