@@ -33,6 +33,14 @@ jobs:
           ref: ${{ steps.tag.outputs.tag }}
           fetch-depth: 0
 
+      - name: Configure git commit metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          date=$(git show --no-patch --format=%aI HEAD)
+          echo "GIT_AUTHOR_DATE=$date" | tee -a "$GITHUB_ENV"
+          echo "GIT_COMMITTER_DATE=$date" | tee -a "$GITHUB_ENV"
+
       - name: Install go-imports-rename
         run: |
           go install github.com/sirkon/go-imports-rename@latest
@@ -42,28 +50,21 @@ jobs:
         run: |
           mv internal/ api/
           go-imports-rename --save 'github.com/restic/restic/internal/ => github.com/restic/restic/api/'
+          git add .
+          git commit --message "Expose internal modules as public apis"
 
       - name: Patch fork name
         run: |
           go-imports-rename --save 'github.com/restic/restic/ => github.com/${{ github.repository }}/'
           sed -i "s|module github.com/restic/restic|module github.com/${{ github.repository }}|" go.mod
+          git add .
+          git commit --message "Update module name to fork"
 
       - name: Build
         run: |
           make
-          make clean
-
-      - name: Commit and tag changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          GIT_AUTHOR_DATE=$(git show --no-patch --format=%aI HEAD)
-          GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE
-          export GIT_AUTHOR_DATE GIT_COMMITTER_DATE
-          git add .
-          git commit --message "Expose internal modules as public apis"
-          git tag --force ${{ steps.tag.outputs.tag }}
 
       - name: Push tag
         run: |
+          git tag --force ${{ steps.tag.outputs.tag }}
           git push --force https://github.com/${{ github.repository }}.git ${{ steps.tag.outputs.tag }}
