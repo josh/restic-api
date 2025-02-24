@@ -55,4 +55,4 @@ jobs:
 
       - name: Push tag
         run: |
-          git push --force https://github.com/josh/restic-api.git ${{ steps.tag.outputs.tag }}
+          git push --force https://github.com/${{ github.repository }}.git ${{ steps.tag.outputs.tag }}
