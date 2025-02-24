@@ -36,9 +36,8 @@ jobs:
       - name: Patch
         run: |
           mv internal/ api/
-          find . -type f -name "*.go" -exec sed -i "$SED_PATTERN" {} +
-        env:
-          SED_PATTERN: "s|github.com/restic/restic/internal|github.com/restic/restic/api|g"
+          find . -type f -name "*.go" -exec sed -i "s|github.com/restic/restic/internal|github.com/restic/restic/api|g" {} +
+          find . -type f -name "*.go" -exec sed -i "s|github.com/restic/restic|github.com/${{ github.repository }}|g" {} +
 
       - name: Build
         run: |
