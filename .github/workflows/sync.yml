@@ -21,10 +21,6 @@ jobs:
           ref: ${{ github.event.inputs.tag }}
           fetch-depth: 0
 
-      - name: Re-configure origin
-        run: |
-          git remote set-url origin https://github.com/josh/restic-api.git
-
       - name: Patch
         run: |
           mv internal/ api/
@@ -47,4 +43,4 @@ jobs:
 
       - name: Push tag
         run: |
-          git push --force ${{ github.event.inputs.tag }}
+          git push --force https://github.com/josh/restic-api.git ${{ github.event.inputs.tag }}
