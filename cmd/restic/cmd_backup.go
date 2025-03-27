@@ -18,17 +18,17 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/restic/restic/internal/archiver"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/textfile"
-	"github.com/restic/restic/internal/ui"
-	"github.com/restic/restic/internal/ui/backup"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/api/archiver"
+	"github.com/restic/restic/api/debug"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/filter"
+	"github.com/restic/restic/api/fs"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/textfile"
+	"github.com/restic/restic/api/ui"
+	"github.com/restic/restic/api/ui/backup"
+	"github.com/restic/restic/api/ui/termstatus"
 )
 
 func newBackupCommand() *cobra.Command {

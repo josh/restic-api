@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/restic/restic/internal/archiver"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
+	"github.com/restic/restic/api/archiver"
+	"github.com/restic/restic/api/debug"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/fs"
+	"github.com/restic/restic/api/repository"
 )
 
 // rejectResticCache returns a RejectByNameFunc that rejects the restic cache

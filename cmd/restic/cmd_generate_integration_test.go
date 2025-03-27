@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/api/test"
 )
 
 func TestGenerateStdout(t *testing.T) {

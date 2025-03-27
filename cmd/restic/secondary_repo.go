@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/restic/restic/api/errors"
 	"github.com/spf13/pflag"
 )
 
