@@ -7,13 +7,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/local"
-	"github.com/restic/restic/api/backend/mem"
-	"github.com/restic/restic/api/backend/retry"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/local"
+	"github.com/josh/restic-api/api/backend/mem"
+	"github.com/josh/restic-api/api/backend/retry"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 
 	"github.com/restic/chunker"
 )

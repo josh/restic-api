@@ -6,7 +6,7 @@ package fs
 import (
 	"os"
 
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 func lchown(name string, uid, gid int) error {

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui/progress"
 	"golang.org/x/sync/errgroup"
 )
 

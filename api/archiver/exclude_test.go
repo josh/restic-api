@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/test"
 )
 
 func TestIsExcludedByFile(t *testing.T) {

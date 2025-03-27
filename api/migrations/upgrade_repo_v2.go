@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
 )
 
 func init() {

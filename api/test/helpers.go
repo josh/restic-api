@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // Assert fails the test if the condition is false.

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/filter"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/filter"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func setAndVerifyXattr(t *testing.T, file string, attrs []restic.ExtendedAttribute) {

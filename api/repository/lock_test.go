@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/mem"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/mem"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 type backendWrapper func(r backend.Backend) (backend.Backend, error)

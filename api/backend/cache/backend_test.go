@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/mem"
-	backendtest "github.com/restic/restic/api/backend/test"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/mem"
+	backendtest "github.com/josh/restic-api/api/backend/test"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 )
 
 func loadAndCompare(t testing.TB, be backend.Backend, h backend.Handle, data []byte) {

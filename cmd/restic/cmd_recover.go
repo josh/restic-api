@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui/progress"
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui/progress"
+	"github.com/josh/restic-api/api/ui/termstatus"
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 )

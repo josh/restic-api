@@ -1,4 +1,4 @@
-module github.com/restic/restic
+module github.com/josh/restic-api
 
 go 1.23.0
 

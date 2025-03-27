@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/ui"
 )
 
 // Table contains data for a table to be printed.

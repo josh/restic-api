@@ -13,14 +13,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/restic/restic/api/backend/cache"
-	"github.com/restic/restic/api/checker"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui"
-	"github.com/restic/restic/api/ui/progress"
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/backend/cache"
+	"github.com/josh/restic-api/api/checker"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui"
+	"github.com/josh/restic-api/api/ui/progress"
+	"github.com/josh/restic-api/api/ui/termstatus"
 )
 
 func newCheckCommand() *cobra.Command {
