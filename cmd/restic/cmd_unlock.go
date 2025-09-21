@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/internal/repository"
+	"github.com/restic/restic/api/repository"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

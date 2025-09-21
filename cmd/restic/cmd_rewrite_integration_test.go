@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/api/filter"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui"
 )
 
 func testRunRewriteExclude(t testing.TB, gopts GlobalOptions, excludes []string, forget bool, metadata snapshotMetadataArgs) {

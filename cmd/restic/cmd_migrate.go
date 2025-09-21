@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/internal/migrations"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui/progress"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/api/migrations"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/ui/progress"
+	"github.com/restic/restic/api/ui/termstatus"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

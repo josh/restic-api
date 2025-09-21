@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/api/debug"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/restic"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/spf13/cobra"
