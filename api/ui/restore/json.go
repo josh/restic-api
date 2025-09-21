@@ -3,7 +3,7 @@ package restore
 import (
 	"time"
 
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/ui"
 )
 
 type jsonPrinter struct {

@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/options"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/options"
 )
 
 // Config collects all information required to connect to an sftp server.

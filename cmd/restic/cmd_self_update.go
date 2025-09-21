@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/selfupdate"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/selfupdate"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

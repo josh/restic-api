@@ -3,7 +3,7 @@ package ui
 import (
 	"testing"
 
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/test"
 )
 
 func TestFormatBytes(t *testing.T) {

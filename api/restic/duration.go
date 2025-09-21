@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // Duration is similar to time.Duration, except it only supports larger ranges

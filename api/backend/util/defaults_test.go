@@ -5,11 +5,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/util"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/util"
+	"github.com/josh/restic-api/api/errors"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 type mockReader struct {

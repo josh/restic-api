@@ -3,7 +3,7 @@ package fs
 import (
 	"io"
 
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // FS bundles all methods needed for a file system.

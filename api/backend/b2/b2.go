@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/layout"
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/backend/util"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/layout"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/backend/util"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
 
 	"github.com/Backblaze/blazer/b2"
 	"github.com/Backblaze/blazer/base"

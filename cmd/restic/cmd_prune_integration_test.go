@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/repository"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/repository"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui/termstatus"
 )
 
 func testRunPrune(t testing.TB, gopts GlobalOptions, opts PruneOptions) {

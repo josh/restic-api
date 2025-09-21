@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/ui/termstatus"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/ui/termstatus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )
