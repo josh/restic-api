@@ -6,9 +6,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 )
 
 func saveRandomFile(t testing.TB, be backend.Backend, length int) ([]byte, backend.Handle) {

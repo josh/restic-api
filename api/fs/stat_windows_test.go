@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/fs"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/fs"
+	rtest "github.com/josh/restic-api/api/test"
 	"golang.org/x/sys/windows"
 )
 

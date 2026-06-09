@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend/b2"
-	"github.com/restic/restic/api/backend/test"
+	"github.com/josh/restic-api/api/backend/b2"
+	"github.com/josh/restic-api/api/backend/test"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func newB2TestSuite() *test.Suite[b2.Config] {

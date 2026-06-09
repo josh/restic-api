@@ -5,7 +5,7 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 type associatedSetSub[T any] struct {

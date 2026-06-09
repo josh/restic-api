@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/debug"
 )
 
 // ExpirePolicy configures which snapshots should be automatically removed.

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 // CalculateProgressInterval returns the interval configured via RESTIC_PROGRESS_FPS

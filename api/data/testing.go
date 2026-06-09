@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/restic/chunker"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 // fakeFile returns a reader which yields deterministic pseudo-random data.

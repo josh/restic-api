@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/filter"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/filter"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui"
 )
 
 func testRunRewriteExclude(t testing.TB, gopts global.Options, excludes []string, forget bool, metadata snapshotMetadataArgs) {

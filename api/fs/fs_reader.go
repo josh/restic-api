@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // Reader is a file system which provides a directory with a single file. When

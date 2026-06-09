@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/options"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/options"
 )
 
 // Config contains all configuration necessary to start rclone.

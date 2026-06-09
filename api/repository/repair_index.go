@@ -3,10 +3,10 @@ package repository
 import (
 	"context"
 
-	"github.com/restic/restic/api/repository/index"
-	"github.com/restic/restic/api/repository/pack"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/repository/index"
+	"github.com/josh/restic-api/api/repository/pack"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 type RepairIndexOptions struct {

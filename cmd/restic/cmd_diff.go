@@ -6,12 +6,12 @@ import (
 	"path"
 	"reflect"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

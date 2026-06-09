@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/api/global"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/global"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunRecover(t testing.TB, gopts global.Options) {

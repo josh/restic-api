@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/feature"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/feature"
 )
 
 // Backend retries operations on the backend in case of an error with a

@@ -6,9 +6,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 // TestTree is used to construct a list of trees for testing the walker.

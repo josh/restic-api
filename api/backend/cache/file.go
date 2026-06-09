@@ -8,11 +8,11 @@ import (
 	"runtime"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/util"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/util"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/restic"
 )
 
 func (c *Cache) filename(h backend.Handle) string {

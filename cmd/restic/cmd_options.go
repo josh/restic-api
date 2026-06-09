@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/options"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/options"
 
 	"github.com/spf13/cobra"
 )

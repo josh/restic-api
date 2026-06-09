@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/peterbourgon/unixtransport"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/feature"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/feature"
 	"golang.org/x/net/http2"
 )
 

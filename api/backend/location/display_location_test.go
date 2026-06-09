@@ -3,9 +3,9 @@ package location_test
 import (
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/test"
 )
 
 func TestStripPassword(t *testing.T) {

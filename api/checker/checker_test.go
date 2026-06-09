@@ -13,15 +13,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/archiver"
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/checker"
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/repository/hashing"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/archiver"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/checker"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/repository/hashing"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 )
 
 var checkerTestData = filepath.Join("testdata", "checker-test-repo.tar.gz")

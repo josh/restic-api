@@ -10,15 +10,15 @@ import (
 	"os"
 	"sync"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository/hashing"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository/hashing"
+	"github.com/josh/restic-api/api/restic"
 
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/repository/pack"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/repository/pack"
 )
 
 // packer holds a pack.packer together with a hash writer.

@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/azure"
-	"github.com/restic/restic/api/backend/test"
-	"github.com/restic/restic/api/options"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/azure"
+	"github.com/josh/restic-api/api/backend/test"
+	"github.com/josh/restic-api/api/options"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func newAzureTestSuite() *test.Suite[azure.Config] {

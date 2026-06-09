@@ -3,8 +3,8 @@ package mem_test
 import (
 	"testing"
 
-	"github.com/restic/restic/api/backend/mem"
-	"github.com/restic/restic/api/backend/test"
+	"github.com/josh/restic-api/api/backend/mem"
+	"github.com/josh/restic-api/api/backend/test"
 )
 
 func newTestSuite() *test.Suite[struct{}] {

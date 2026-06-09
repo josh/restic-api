@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/selfupdate"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/selfupdate"
+	"github.com/josh/restic-api/api/ui"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

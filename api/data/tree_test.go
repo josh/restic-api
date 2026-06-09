@@ -13,12 +13,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/archiver"
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/fs"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/archiver"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/fs"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 var testFiles = []struct {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/restic/restic/api/data"
+	"github.com/josh/restic-api/api/data"
 )
 
 func parseTimeUTC(s string) time.Time {

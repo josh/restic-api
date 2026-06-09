@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui"
 )
 
 func TestSizeHistogramNew(t *testing.T) {

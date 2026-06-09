@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui"
 )
 
 func TestCheckRestoreNoLock(t *testing.T) {

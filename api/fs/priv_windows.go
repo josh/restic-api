@@ -4,7 +4,7 @@ package fs
 
 import (
 	"github.com/Microsoft/go-winio"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 var processPrivileges = []string{

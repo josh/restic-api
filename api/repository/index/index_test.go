@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/api/repository/index"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/repository/index"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestIndexSerialize(t *testing.T) {

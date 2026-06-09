@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/restic/restic/api/backend"
+	"github.com/josh/restic-api/api/backend"
 )
 
 // DefaultLoad implements Backend.Load using lower-level openReader func

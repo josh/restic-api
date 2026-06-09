@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/restic"
 )
 
 var samples = restic.IDs{

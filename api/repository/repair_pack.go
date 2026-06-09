@@ -6,8 +6,8 @@ import (
 	"io"
 	"slices"
 
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 func RepairPacks(ctx context.Context, repo *Repository, ids restic.IDSet, printer progress.Printer) error {

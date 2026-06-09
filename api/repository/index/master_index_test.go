@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/restic/restic/api/checker"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/repository/index"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/checker"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/repository/index"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 func TestMasterIndex(t *testing.T) {

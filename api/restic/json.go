@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // LoadJSONUnpacked decrypts the data and afterwards calls json.Unmarshal on

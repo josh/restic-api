@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 var blobTypeJSON = []struct {

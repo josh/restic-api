@@ -3,7 +3,7 @@ package swift
 import (
 	"testing"
 
-	"github.com/restic/restic/api/backend/test"
+	"github.com/josh/restic-api/api/backend/test"
 )
 
 var configTests = []test.ConfigTestData[Config]{

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/global"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/global"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunDiffOutput(t testing.TB, gopts global.Options, firstSnapshotID string, secondSnapshotID string) (string, error) {

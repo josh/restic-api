@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/global"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/global"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunTag(t testing.TB, opts TagOptions, gopts global.Options) {

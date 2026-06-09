@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/api/repository"
+	"github.com/josh/restic-api/api/repository"
 )
 
 func TestUpgradeRepoV2(t *testing.T) {

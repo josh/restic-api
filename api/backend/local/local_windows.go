@@ -3,7 +3,7 @@ package local
 import (
 	"os"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // Can't explicitly flush directory changes on Windows.

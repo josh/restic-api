@@ -4,8 +4,8 @@ package fuse
 
 import (
 	"github.com/anacrolix/fuse"
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/debug"
 )
 
 func nodeToXattrList(node *data.Node, req *fuse.ListxattrRequest, resp *fuse.ListxattrResponse) {

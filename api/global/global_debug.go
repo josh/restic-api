@@ -8,8 +8,8 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 

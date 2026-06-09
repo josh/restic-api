@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // ErrSkipNode is returned by WalkFunc when a dir node should not be walked.
