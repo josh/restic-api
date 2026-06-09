@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/data"
-	"github.com/restic/restic/internal/global"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/api/data"
+	"github.com/restic/restic/api/global"
+	rtest "github.com/restic/restic/api/test"
 )
 
 func testRunForgetMayFail(t testing.TB, gopts global.Options, opts ForgetOptions, args ...string) error {

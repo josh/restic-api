@@ -15,13 +15,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/restic/restic/internal/data"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/api/data"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/fs"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/ui"
+	"github.com/restic/restic/api/walker"
 )
 
 func newLsCommand(globalOptions *global.Options) *cobra.Command {

@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/progress"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui/progress"
 )
 
 func TestParsePercentage(t *testing.T) {

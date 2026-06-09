@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/repository"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/progress"
+	"github.com/restic/restic/api/backend"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/repository"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui/progress"
 )
 
 func testRunKeyListOtherIDs(t testing.TB, gopts global.Options) []string {

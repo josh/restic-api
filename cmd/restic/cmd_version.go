@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"runtime"
 
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/ui"
 	"github.com/spf13/cobra"
 )
 

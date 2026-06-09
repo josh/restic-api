@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/restic/restic/internal/data"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/api/data"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/ui"
 )
 
 func formatNode(path string, n *data.Node, long bool, human bool) string {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/global"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/api/global"
+	rtest "github.com/restic/restic/api/test"
 )
 
 func testRunCheck(t testing.TB, gopts global.Options) {

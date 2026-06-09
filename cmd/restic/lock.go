@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/ui/progress"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/ui/progress"
 )
 
 func internalOpenWithLocked(ctx context.Context, gopts global.Options, dryRun bool, exclusive bool, printer progress.Printer) (context.Context, *repository.Repository, func(), error) {
