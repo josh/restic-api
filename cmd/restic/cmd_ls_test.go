@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/data"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/api/data"
+	rtest "github.com/restic/restic/api/test"
 )
 
 type lsTestNode struct {

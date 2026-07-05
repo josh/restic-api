@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/ui"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

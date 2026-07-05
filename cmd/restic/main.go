@@ -14,14 +14,14 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/automaxprocs/maxprocs"
 
-	"github.com/restic/restic/internal/backend/all"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/feature"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/api/backend/all"
+	"github.com/restic/restic/api/debug"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/feature"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/ui/termstatus"
 )
 
 func init() {

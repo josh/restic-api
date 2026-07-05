@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui"
 )
 
 func testRunList(t testing.TB, gopts global.Options, tpe string) restic.IDs {

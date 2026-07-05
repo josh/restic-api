@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/restic/restic/internal/data"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui/progress"
+	"github.com/restic/restic/api/data"
+	"github.com/restic/restic/api/restic"
+	"github.com/restic/restic/api/ui/progress"
 	"github.com/spf13/pflag"
 )
 

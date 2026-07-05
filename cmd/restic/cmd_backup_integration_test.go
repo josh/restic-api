@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/data"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/api/data"
+	"github.com/restic/restic/api/errors"
+	"github.com/restic/restic/api/fs"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
 )
 
 func testRunBackupAssumeFailure(t testing.TB, dir string, target []string, opts BackupOptions, gopts global.Options) error {

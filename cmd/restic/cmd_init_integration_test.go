@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/progress"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/repository"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui/progress"
 )
 
 func testRunInit(t testing.TB, gopts global.Options) {

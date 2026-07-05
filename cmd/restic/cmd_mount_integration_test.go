@@ -13,12 +13,12 @@ import (
 	"time"
 
 	systemFuse "github.com/anacrolix/fuse"
-	"github.com/restic/restic/internal/data"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/global"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/api/data"
+	"github.com/restic/restic/api/debug"
+	"github.com/restic/restic/api/global"
+	"github.com/restic/restic/api/restic"
+	rtest "github.com/restic/restic/api/test"
+	"github.com/restic/restic/api/ui"
 )
 
 const (

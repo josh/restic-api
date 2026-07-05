@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/restic/restic/internal/data"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/api/data"
+	rtest "github.com/restic/restic/api/test"
 	"github.com/spf13/pflag"
 )
 
