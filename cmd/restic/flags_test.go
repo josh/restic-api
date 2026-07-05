@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/api/global"
+	"github.com/josh/restic-api/api/global"
 )
 
 // TestFlags checks for double defined flags, the commands will panic on

@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/restic"
 )
 
 // Cache manages a local cache.

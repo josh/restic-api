@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 const float64EqualityThreshold = 1e-6

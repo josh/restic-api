@@ -5,10 +5,10 @@ package archiver
 import (
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/feature"
-	"github.com/restic/restic/api/fs"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/feature"
+	"github.com/josh/restic-api/api/fs"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func statAndSnapshot(t *testing.T, repo archiverRepo, name string) (*data.Node, *data.Node) {

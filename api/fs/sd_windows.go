@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 	"golang.org/x/sys/windows"
 )
 

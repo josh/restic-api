@@ -1,16 +1,16 @@
 package all
 
 import (
-	"github.com/restic/restic/api/backend/azure"
-	"github.com/restic/restic/api/backend/b2"
-	"github.com/restic/restic/api/backend/gs"
-	"github.com/restic/restic/api/backend/local"
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/backend/rclone"
-	"github.com/restic/restic/api/backend/rest"
-	"github.com/restic/restic/api/backend/s3"
-	"github.com/restic/restic/api/backend/sftp"
-	"github.com/restic/restic/api/backend/swift"
+	"github.com/josh/restic-api/api/backend/azure"
+	"github.com/josh/restic-api/api/backend/b2"
+	"github.com/josh/restic-api/api/backend/gs"
+	"github.com/josh/restic-api/api/backend/local"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/backend/rclone"
+	"github.com/josh/restic-api/api/backend/rest"
+	"github.com/josh/restic-api/api/backend/s3"
+	"github.com/josh/restic-api/api/backend/sftp"
+	"github.com/josh/restic-api/api/backend/swift"
 )
 
 func Backends() *location.Registry {

@@ -9,7 +9,7 @@ import (
 	"github.com/anacrolix/fuse"
 	"github.com/anacrolix/fuse/fs"
 
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/test"
 )
 
 type cacheTestNode struct {

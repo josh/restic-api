@@ -14,16 +14,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/cache"
-	"github.com/restic/restic/api/backend/local"
-	"github.com/restic/restic/api/backend/mem"
-	"github.com/restic/restic/api/crypto"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/repository/index"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/cache"
+	"github.com/josh/restic-api/api/backend/local"
+	"github.com/josh/restic-api/api/backend/mem"
+	"github.com/josh/restic-api/api/crypto"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/repository/index"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 var testSizes = []int{5, 23, 2<<18 + 23, 1 << 20}

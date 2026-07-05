@@ -7,16 +7,16 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/filter"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui"
-	"github.com/restic/restic/api/ui/progress"
-	"github.com/restic/restic/api/walker"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/filter"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui"
+	"github.com/josh/restic-api/api/ui/progress"
+	"github.com/josh/restic-api/api/walker"
 )
 
 func newRewriteCommand(globalOptions *global.Options) *cobra.Command {

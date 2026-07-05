@@ -8,9 +8,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // nodeFromFileInfo returns a new node from the given path and FileInfo. It

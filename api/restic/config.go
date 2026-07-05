@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/debug"
 
 	"github.com/restic/chunker"
 )

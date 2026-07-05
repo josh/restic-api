@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/data"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestFormatNode(t *testing.T) {

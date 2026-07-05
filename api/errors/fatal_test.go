@@ -3,7 +3,7 @@ package errors_test
 import (
 	"testing"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 func TestFatal(t *testing.T) {

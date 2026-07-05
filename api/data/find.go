@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 // FindUsedBlobs traverses the tree ID and adds all seen blobs (trees and data

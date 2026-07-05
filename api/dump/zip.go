@@ -5,8 +5,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/errors"
 )
 
 func (d *Dumper) dumpZip(ctx context.Context, ch <-chan *data.Node) (err error) {

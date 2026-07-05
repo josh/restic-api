@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/test"
 )
 
 // Suite implements a test suite for restic backends.

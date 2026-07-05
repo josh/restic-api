@@ -14,15 +14,15 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/sys/unix"
 
-	"github.com/restic/restic/api/backend/local"
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/backend/local"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/ui"
 
-	"github.com/restic/restic/api/fuse"
+	"github.com/josh/restic-api/api/fuse"
 
 	systemFuse "github.com/anacrolix/fuse"
 	"github.com/anacrolix/fuse/fs"

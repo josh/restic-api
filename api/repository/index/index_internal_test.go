@@ -3,9 +3,9 @@ package index
 import (
 	"testing"
 
-	"github.com/restic/restic/api/repository/pack"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/repository/pack"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestIndexOversized(t *testing.T) {

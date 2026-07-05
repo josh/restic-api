@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/test"
 	"golang.org/x/sync/errgroup"
 )
 

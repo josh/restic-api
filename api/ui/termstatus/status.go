@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/restic/restic/api/terminal"
-	"github.com/restic/restic/api/ui"
+	"github.com/josh/restic-api/api/terminal"
+	"github.com/josh/restic-api/api/ui"
 )
 
 var _ ui.Terminal = &Terminal{}

@@ -5,7 +5,7 @@ package fuse
 import (
 	"sync"
 
-	"github.com/restic/restic/api/debug"
+	"github.com/josh/restic-api/api/debug"
 
 	"github.com/anacrolix/fuse/fs"
 )

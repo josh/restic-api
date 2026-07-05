@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 type State struct {

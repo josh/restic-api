@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/feature"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/ui/table"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/feature"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/ui/table"
 
 	"github.com/spf13/cobra"
 )

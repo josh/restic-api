@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/restic"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/restic"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func testRunLsWithOpts(t testing.TB, gopts global.Options, opts LsOptions, args []string) []byte {

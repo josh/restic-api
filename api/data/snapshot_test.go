@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/repository"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/repository"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestNewSnapshot(t *testing.T) {

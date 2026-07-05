@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/restic/restic/api/ui"
-	"github.com/restic/restic/api/ui/progress"
+	"github.com/josh/restic-api/api/ui"
+	"github.com/josh/restic-api/api/ui/progress"
 )
 
 type textPrinter struct {

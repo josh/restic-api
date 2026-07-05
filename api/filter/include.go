@@ -3,7 +3,7 @@ package filter
 import (
 	"strings"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 	"github.com/spf13/pflag"
 )
 

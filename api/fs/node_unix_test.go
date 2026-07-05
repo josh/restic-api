@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/errors"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/errors"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func stat(t testing.TB, filename string) (fi os.FileInfo, ok bool) {

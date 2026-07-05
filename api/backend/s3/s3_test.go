@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/location"
-	"github.com/restic/restic/api/backend/s3"
-	"github.com/restic/restic/api/backend/test"
-	"github.com/restic/restic/api/options"
-	rtest "github.com/restic/restic/api/test"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/location"
+	"github.com/josh/restic-api/api/backend/s3"
+	"github.com/josh/restic-api/api/backend/test"
+	"github.com/josh/restic-api/api/options"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func mkdir(t testing.TB, dir string) {

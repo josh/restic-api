@@ -8,9 +8,9 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 	"github.com/hashicorp/golang-lru/v2/simplelru"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/errors"
-	"github.com/restic/restic/api/fs"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/errors"
+	"github.com/josh/restic-api/api/fs"
 )
 
 // writes blobs to target files.

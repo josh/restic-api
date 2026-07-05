@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/restic/restic/api/data"
-	"github.com/restic/restic/api/debug"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/data"
+	"github.com/josh/restic-api/api/debug"
+	"github.com/josh/restic-api/api/restic"
 )
 
 type NodeRewriteFunc func(node *data.Node, path string) *data.Node

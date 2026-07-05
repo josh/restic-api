@@ -8,7 +8,7 @@ import (
 	"path"
 	"testing"
 
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 )
 
 func TestBackendRESTWithUnixSocket(t *testing.T) {

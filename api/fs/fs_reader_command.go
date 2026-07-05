@@ -7,7 +7,7 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/restic/restic/api/errors"
+	"github.com/josh/restic-api/api/errors"
 )
 
 // CommandReader wraps a command such that its standard output can be read using

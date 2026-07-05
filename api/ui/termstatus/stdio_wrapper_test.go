@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	rtest "github.com/restic/restic/api/test"
+	rtest "github.com/josh/restic-api/api/test"
 	"golang.org/x/sync/errgroup"
 )
 

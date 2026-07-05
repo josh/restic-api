@@ -1,7 +1,7 @@
 package layout
 
 import (
-	"github.com/restic/restic/api/backend"
+	"github.com/josh/restic-api/api/backend"
 )
 
 // Layout computes paths for file name storage.

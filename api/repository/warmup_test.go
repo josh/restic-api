@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/api/backend"
-	"github.com/restic/restic/api/backend/mock"
-	"github.com/restic/restic/api/restic"
+	"github.com/josh/restic-api/api/backend"
+	"github.com/josh/restic-api/api/backend/mock"
+	"github.com/josh/restic-api/api/restic"
 )
 
 func TestWarmupRepository(t *testing.T) {

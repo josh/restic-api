@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/restic/restic/api/global"
-	"github.com/restic/restic/api/repository"
-	"github.com/restic/restic/api/restic"
-	"github.com/restic/restic/api/ui"
-	"github.com/restic/restic/api/ui/progress"
-	"github.com/restic/restic/api/ui/table"
+	"github.com/josh/restic-api/api/global"
+	"github.com/josh/restic-api/api/repository"
+	"github.com/josh/restic-api/api/restic"
+	"github.com/josh/restic-api/api/ui"
+	"github.com/josh/restic-api/api/ui/progress"
+	"github.com/josh/restic-api/api/ui/table"
 	"github.com/spf13/cobra"
 )
 

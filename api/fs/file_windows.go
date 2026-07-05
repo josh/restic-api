@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/restic/restic/api/data"
+	"github.com/josh/restic-api/api/data"
 	"golang.org/x/sys/windows"
 )
 
