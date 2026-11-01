@@ -19,15 +19,18 @@ jobs:
     steps:
       - name: Get latest tag
         id: tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+        shell: bash
         run: |
-          if [ -n "${{ github.event.inputs.tag }}" ]; then
-            echo "tag=${{ github.event.inputs.tag }}" | tee -a "$GITHUB_OUTPUT"
-          else
-            (
-              echo -n "tag="
-              curl --silent https://api.github.com/repos/restic/restic/releases/latest | jq --raw-output .tag_name
-            ) | tee -a "$GITHUB_OUTPUT"
+          set -euo pipefail
+          if [ -z "$TAG" ]; then
+            TAG=$(gh api repos/restic/restic/releases/latest |
+              jq -er '.tag_name | strings | select(length > 0)')
           fi
+          git check-ref-format "refs/tags/$TAG"
+          printf 'tag=%s\n' "$TAG" >> "$GITHUB_OUTPUT"
 
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
@@ -73,6 +76,10 @@ jobs:
           make
 
       - name: Push tag
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+          REPOSITORY: ${{ github.repository }}
         run: |
-          git tag --force ${{ steps.tag.outputs.tag }}
-          git push --force https://github.com/${{ github.repository }}.git ${{ steps.tag.outputs.tag }}
+          git tag --force -- "$TAG"
+          git push --force "https://github.com/$REPOSITORY.git" \
+            "refs/tags/$TAG:refs/tags/$TAG"
